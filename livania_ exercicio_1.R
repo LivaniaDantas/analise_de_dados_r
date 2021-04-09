@@ -55,22 +55,24 @@ segundo_turno
 
 # Adicione esta coluna no dataframe
  
-banco2 <- banco
-banco2
+banco_2 <- banco
+banco_2
 
-banco2 <- data.frame(candidatos,partido,votos_candidatos,
+banco_2 <- data.frame(candidatos,partido,votos_candidatos,
                      porcentagem_votos,segundo_turno)
-banco2
+banco_2
 
 
 # Calcule a soma da porcentagem dos dois candidatos que obtiveram mais votos
 
-banco2[1,4]+banco2[2,4]
+candidatos_mais_votados <- sum(banco_2[1,4],banco_2[2,4]) 
 
+candidatos_mais_votados
 
 # Exiba as informações do dataframe dos dois candidatos com mais votos
 
-banco2[1:2,]
+banco_2[1:2,]
+
 
 ###############################################################################
 
@@ -80,7 +82,7 @@ banco2[1:2,]
 # [1] 24 18 31
 
 q <- c(47, 24, 18, 33, 31, 15)
-q[?]
+q[c(2,3,5)]
 
 ###############################################################################
 
@@ -91,7 +93,7 @@ q[?]
 # $ x: Factor w/ 2 levels "d","e": 1 2
 # $ y: num  1 4
 
-df <- data.frame(?,
+df <- data.frame(x = factor(x <-c("d","e")),
                  y = c(1,4))
 
 str(df)
@@ -108,6 +110,9 @@ str(df)
 # 4 48  D  Feb
 # 5 19  E  Mar
 
+df <- data.frame(x = x <- c(17,37,12,48,19), y = y <- c("A","B","C","D","E"), 
+                 z = z <- c("Sep","Jul","Jun","Feb","Mar"))
+df
 
 
 # Ainda utilizando o dataframe df,
@@ -118,6 +123,7 @@ str(df)
 # 2 37  B
 # 3 12  C
 
+df[1:3,c("x","y")]
 
 
 ###############################################################################
