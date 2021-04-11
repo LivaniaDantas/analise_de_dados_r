@@ -132,26 +132,53 @@ df[1:3,c("x","y")]
 # A partir do seu projeto de mestrado ou da ideia de trabalho final:
 # 1) elaborar uma explicação causal teórica
 
+#Tema: Desigualdade entre homens e mulheres nos espaços de poder político
+
+#A sub-representação feminina ainda é um caso concreto nas instâncias políticas,mesmo com o advento da Lei nº 9.504,de 30 de setembro de 1997, que garante o preenchimento mínimo de 30% (trinta por cento) e o máximo de 70% (setenta por cento) para candidaturas de cada sexo.
+#As mulheres representam 51% da população e 52% do eleitorado no Brasil, no entanto a mesma proporcionalidade não se registra nos espaços de poderes políticos, legislativo e executivo. O resultado das eleições municipais de 2020 permite observar com clareza essa disparidade, onde apenas 655 foram eleitas prefeitas em todo o Brasil, o que representa 12,1% do total, contra 87,9% de prefeitos. Para as Câmaras Municipais foram eleitas 9.196 vereadoras e 48.265 vereadores, o que equivale a 16% de mulheres e 84% de homens. 
+#Na medida em que ocorre a sub-representação, tanto de mulheres como de outros grupos minoritários, o sistema político deixa de incorporar ou incorpora de forma insuficiente questões fundamentais, tornando-se menos inclusivo (MEIRELES; RUBIM ANDRADE, 2017), essa distorção no processo político-eleitoral é um dos desafios da democracia representativa.
+
+
 
 
 # 2) elaborar hipóteses
 
+#H1 Existe relação entre o desempenho eleitoral das candidatas mulheres
+#e a lei de cotas de gênero.
+
+#H2 – Os partidos políticos asseguram os mesmos mecanismos competitivos 
+#entre homens e mulheres. 
+
+#H3 - Partidos políticos utilizam a lei de cotas de gênero para servir a outros interesses
 
 
 
 # 3) pensar em como operacionalizar os conceitos teóricos em variáveis empíricas
 
+#Desempenho eleitoral - o alcance do número mínimo de votos para se eleger,
+#configurando-se em número de acentos conquistados por mulheres na eleição em análise.
+
+#Cotas de gênero – mensuração em termos percentuais da candidatura de mulheres por partido político, 
+#observando a cota mínima de 30% e máxima de 70% para candidaturas de cada sexo. 
+
+#Recursos financeiros – mensuração em termos financeiros do montante dos recursos destinado a candidatura, originários do fundo partidário e doações de campanha. 
+#Candidaturas fictícias – podem ser observadas através do gasto financeiro inexistente, recebimento ou irrisórios, doações financeiras recebidas e votação ínfima. 
 
 
 
 
 # 4) estabelecer o tipo de relação entre as variáveis operacionalizadas
 
+#Variável Dependente: Desempenho eleitoral 
+#Variável Independente: Recursos financeiros  
+#Variável Independente: Candidaturas fictícias (fraudulentas)
 
 
 
 
 # 5) elabore qual é a pergunta da sua pesquisa em apenas uma frase
+
+#O que explica o baixo desempenho eleitoral das candidaturas femininas nos pleitos municipais?
 
 
 
@@ -159,4 +186,14 @@ df[1:3,c("x","y")]
 
 # 6) avalie em que medida seu projeto, por enquanto, pode vir a passar pelas 4 
 # avaliações de relação causal, e quais problemas ele pode ter em cada uma delas
+
+#1)	Existe algum mecanismo causal crível que conecta X a Y? 
+#Sim. Alguns artigos fazem menção a relação causal existente entre as variáveis relacionadas.
+
+#2)	Podemos eliminar a possibilidade de Y pode causar X? Não
+
+#3)	Existe covariação entre X e Y? Sim. 
+
+
+#4)	Controlamos por todas as variáveis colineares Z que podem tornar a associação entre X e Y espúria?  Talvez, pois ainda  haverá a inclusão de novas variáveis para adequar e melhorara o desenho do modelo.
 
